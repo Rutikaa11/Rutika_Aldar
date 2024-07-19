@@ -1,0 +1,34 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(33, 27, 32);
+    color: aliceblue;
+    align-content: space-around;
+    display: flex;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.menubar ul{
+    display: flex;
+    gap: 25px;
+}
+.menubar a{
+    color: aliceblue;
+    justify-content: end;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px 20px ;
+}
+.menubar li :hover{
+    background-color: rgb(193, 79, 41);
+    color: white;
+}
+
