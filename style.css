@@ -119,10 +119,14 @@ span{
 #sub_btn{ 
     height: 40px;
     width: 90px;
-    font-size: 17px;
+    font-size: larger;
     align-self: center;
     color:rgb(242, 242, 243);
     background-color:rgb(193, 79, 41);
+}
+#sub_btn:hover{
+    background-color: black;
+    color: white;
 }
 .input{
     width: 300px;  
