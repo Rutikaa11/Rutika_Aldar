@@ -16,6 +16,12 @@ header{
     list-style-type: none;
     justify-content: space-between;
 }
+.logo{
+    margin: 70px;
+}
+.logo:hover{
+    color: aliceblue;
+}
 .menubar ul{
     display: flex;
     gap: 25px;
@@ -31,4 +37,87 @@ header{
     background-color: rgb(193, 79, 41);
     color: white;
 }
-
+/*Home Section */
+#section_home{
+    font-size: larger;
+    display: flex ;
+    margin: 10%;
+    padding: 5%;
+    
+    align-items: center;
+}
+#content{
+    justify-content: center;
+    clear: left;
+}
+#image{
+    justify-content: end;
+    float: right;
+    display: flex;
+    width: 300px; 
+    height: 400px; 
+    transition: transform 0.3s ease-in-out; 
+}
+#image img{
+    margin-right:60% ;
+    justify-content: space-between;
+    border-radius: 60%;
+    box-shadow: 10px 10px 20px 0px rgb(183, 92, 13);
+    width: 300px; 
+    height: auto;   
+}
+#image:hover{
+    transform: scale(1.2);
+}
+.btn{
+    height: 40px;
+    width: 90px;
+    font-size: 17px;
+    color:rgb(242, 242, 243);
+    background-color:rgb(193, 79, 41);
+}
+.btn:hover{
+    background-color: black;
+}
+span{
+    color:rgb(220, 113, 26);
+}
+/*About Section*/
+.section_about{
+    
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+}
+#about{
+    margin: 10%;
+    padding: 5%;
+}
+.DownR{
+    height: 60px;
+    width: 200px;
+    font-size: large;
+    color:rgb(242, 242, 243);
+    background-color:rgb(193, 79, 41);
+}
+.DownR:hover{
+    background-color:white;
+    color: black;
+}
+/*contact Section*/
+.section_contact{
+    margin: 10%;
+    padding: 5%;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+}
+#sub_btn{ 
+    height: 40px;
+    width: 90px;
+    font-size: 17px;
+    align-self: center;
+    color:rgb(242, 242, 243);
+    background-color:rgb(193, 79, 41);
+}

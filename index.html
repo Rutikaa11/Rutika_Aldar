@@ -8,25 +8,57 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rutika Aldar</h1>
+        <h1 class="logo"><span>Rutika </span>Aldar</h1>
         <div class="menubar">
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
             </ul>
         </div>
     </header>
-    <section id="home">
-        <div class="home" id="home">
-            <img src="Rutika_image.jpg" alt="Profile Photo">
+    <!--Home-->
+    <section id="section_home">
+        <div class="home" id="">
+            <div class="image" id="image">
+                <img src="Rutika_image.jpg" alt="Profile Photo">
+            </div>
+        <div id="content">
             <h4>Hi</h4>
-            <h1>I'm Rutika</h1>
-            <h1>a Fronted Developer</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quo, quod officia laborum labore possimus aliquid ipsum eveniet quibusdam cupiditate illum, magni voluptates sint ut provident, perferendis omnis animi quisquam?</p>
+            <h1>I'm <span> Rutika </span></h1>
+            <h2>a Fronted Developer</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quo, <br>quod officia laborum labore possimus aliquid ipsum eveniet quibusdam cupiditate illum,<br> magni voluptates sint ut provident, perferendis omnis animi quisquam?</p> <br>
+            <button class="btn">Hire Me</button>
+        </div>
         </div>
     </section>
+
+    <!--About-->
+    <section class="section_about">
+        <div class="about" id="about">
+            <h5>About <span>Me</span></h5> <br><br>
+            <h3>Fronted <span>Developer</span></h3> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Tempore, ipsa distinctio accusamus ducimus perferendis cupiditate blanditiis suscipit architecto aliquam quibusdam <br> illo ullam sed modi minima cumque maiores veritatis quisquam dolorum?</p> <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  <br>Iusto dicta ad maxime asperiores saepe deserunt. Tempora magni pariatur iure cupiditate laudantium harum aspernatur,<br> officia nam aliquid quod facere eaque illum.</p> <br>
+            <button class="DownR"><b>Downlod Resume</b></button>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section class="section_contact">
+        <div class="contact" id="contact">
+            <form action=""> 
+            <h1>Contact <span> Me</span></h1> <br><br>
+                <input type="text" placeholder="Full Name"> <br><br>
+                <input type="email" placeholder="Email"><br><br>
+                <input type="number" placeholder="Phone Number"><br><br>
+                <input type="text" placeholder="Leave your message here...."><br><br>
+                <input type="submit" id="sub_btn" class="sub_btn">
+            </form>
+        </div>
+    </section>
+
 </body>
 </html>
