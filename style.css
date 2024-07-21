@@ -21,6 +21,7 @@ header{
 }
 .logo:hover{
     font-size: 40px;
+    padding: 20px;
 }
 .menubar ul{
     display: flex;
@@ -90,28 +91,80 @@ span{
     color: aliceblue;
     background-color: black;
 }
+h5{
+    text-align: center;
+    font-size: 50px;
+}
 #about{
     margin: 10%;
     padding: 5%;
     text-align: justify;
 }
+b{
+    color:rgb(220, 113, 26);
+}
 .DownR{
     height: 60px;
     width: 200px;
     font-size: large;
-    color:rgb(242, 242, 243);
+    color: white;
+    color:rgb(243, 243, 242);
     background-color:rgb(193, 79, 41);
 }
 .DownR:hover{
     background-color:white;
     color: black;
 }
+/*Skills Section*/
+.skill{
+    margin: 10%;  
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.html p{
+    border: 50px solid white;
+    border-radius: 50%;
+    background-color: orange;
+    color: rgb(28, 30, 31);
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 20px ;
+}
+.CSS p{
+    border: 50px solid white;
+    border-radius: 50%;
+    background-color: orange;
+    color: rgb(28, 30, 31);
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 20px ;
+}
+.JS p{
+    border: 50px solid white;
+    border-radius: 50%;
+    background-color: orange;
+    color: rgb(28, 30, 31);
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 20px ;
+}
+
+
+
+
+
+
 /*contact Section*/
 .section_contact{
-    margin: 10%;
-    padding: 5%;
+    color: aliceblue;
 }
 #contact{
+    margin: 10%;
+    background-color: black;
+margin: 10%;
+    padding: 5%;
     display: flex;
     justify-content: center;
     text-align: justify;
