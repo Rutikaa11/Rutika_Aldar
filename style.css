@@ -181,7 +181,7 @@ h5{
     font-size: larger;
     border-radius: 20px;
     color:rgb(242, 242, 243);
-    background-color:rgb(220, 113, 26);
+    background-color:rgb(193, 79, 41);
 }   
 #sub_btn:hover{
     background-color: white;
@@ -196,7 +196,7 @@ h5{
     border-radius: 5px;
 }
 footer{
-    background-color:rgb(220, 113, 26);
+    background-color:rgb(193, 79, 41);
     text-align: center;
     color: white;
     padding: 20px;
