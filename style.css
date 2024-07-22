@@ -50,7 +50,7 @@ body
 }
 #content{
     text-align:justify;
-    align-items: end;
+   
 }
 #image{
     justify-content: end;
@@ -107,19 +107,26 @@ h5{
 .about b{
     color:rgb(220, 113, 26);
 }
-.DownR{
+.DownR {
     height: 60px;
     width: 200px;
     font-size: large;
     border-radius: 30px;
-    color: white;
     color:rgb(243, 243, 242);
     background-color:rgb(193, 79, 41);
 }
+.DownR a{
+    color:white;
+}
 .DownR:hover{
     background-color:white;
-    color: black;
+    
 }
+.DownR a:hover{
+    color: black;
+    
+}
+
 /*Skills Section*/
 .skill{
     margin: 10%;  
