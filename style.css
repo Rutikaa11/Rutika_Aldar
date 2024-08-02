@@ -77,13 +77,14 @@ body
 .btn{
     height: 60px;
     width: 120px;
+    cursor:pointer;
     font-size: larger;
     border-radius: 30px;
     color:white;
     background-color:rgb(193, 79, 41);
 }
 .btn:hover{
-    background-color: white;
+    background-color:aqua;
     color: black;
 }
 span{
@@ -123,7 +124,7 @@ a{
 }
 
 .DownR:hover{
-    background-color:white;
+    background-color:aqua;
 }
 
 /*Skills Section*/
@@ -190,7 +191,7 @@ a{
     background-color:rgb(193, 79, 41);
 }   
 #sub_btn:hover{
-    background-color: white;
+    background-color: aqua;
     color: black;
 }
 .input{
