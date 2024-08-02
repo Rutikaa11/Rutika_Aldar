@@ -1,143 +1,135 @@
-*{
-    list-style: none;
-    text-decoration: none;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
 }
-header{
-    background-color: rgb(33, 27, 32);
-    color: aliceblue;
-    align-content: space-around;
+
+.header {
     display: flex;
-    height: 75px;
-    width: 100%;
-    align-items: center;
-    list-style-type: none;
     justify-content: space-between;
-}
-.logo{
-    margin: 70px;
-}
-.logo:hover{
-    font-size: 40px;
+    align-items: center;
     padding: 20px;
+    background-color: black;
+    color: white;
 }
-.menubar ul{
+
+.logo {
+    font-size: 24px;
+}
+span{
+    color: rgb(220, 113, 26);
+}
+b{
+    color: rgb(220, 113, 26);
+}
+
+.menubar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    gap: 25px;
 }
-.menubar a{
-    color: aliceblue;
-    justify-content: end;
-    flex-direction: column;
-    margin: 10px 0;
-    padding: 10px 20px ;
-    font-size: larger   ;
+
+.menubar li {
+    margin: 0 10px;
 }
+
 .menubar li :hover{
     background-color: rgb(193, 79, 41);
     color: white;
 }
-body
-/*Home Section */
-#section_home{
-    font-size: larger;
-    display: flex ;
-    margin: 10%;
-    padding: 5%;
-    justify-content:center;
+
+.menubar a {
+    color: white;
+    text-decoration: none;
 }
-#content{
-    text-align:justify;
-   
-}
-#image{
-    justify-content: end;
-    float: left;
+/*Home Section*/
+.home {
+    justify-content: center;
     display: flex;
-    width: 300px; 
-    height: 400px; 
-    flex-shrink: 0;
-    transition: transform 0.3s ease-in-out; 
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;  
 }
-#image img{
-    margin-right:60% ;
-    justify-content: space-between;
-    border-radius: 60%;
-    box-shadow: 10px 10px 20px 0px rgb(183, 92, 13);
-    width: 300px; 
-    height: auto;   
-   
-}
-#image:hover{
-    transform: scale(1.2);
-}
-.btn{
-    height: 60px;
-    width: 120px;
-    cursor:pointer;
-    font-size: larger;
-    border-radius: 30px;
-    color:white;
-    background-color:rgb(193, 79, 41);
-}
-.btn:hover{
-    background-color:aqua;
-    color: black;
-}
-span{
-    color:rgb(220, 113, 26);
+
+.home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 /*About Section*/
 .section_about{
-    
-    font-size: 25px;
-    color: aliceblue;
-    background-color: black;
-}
-h5{
-    text-align: center;
-    font-size: 50px;
+    background-color: #000;
+    color: white;align-items: center;
 }
 #about{
-    margin: 10%;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+/*Skill Section*/
+.section_skill{
+    text-align: center;
     padding: 5%;
+}
+.btn, .DownR, .scroll-button {
+    background-color: rgb(193, 79, 41);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover, .DownR:hover, .scroll-button:hover, .sub_btn:hover{
+    background-color: #555;
+}
+
+.section_about, .section_skill, .section_contact, .footer {
+    padding: 20px;
+}
+/*contact Section*/
+.section_contact{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+#contact h1{
+    font-size: 40px;
+    text-align: center;
+}
+#contact{
+    margin: 10px;
+    padding: 55px;
+    display: flex;
+    justify-content: center;
     text-align: justify;
 }
-.about b{
-    color:rgb(220, 113, 26);
-}
-.DownR {
-    text-decoration: none;
-    height: 60px;
-    width: 200px;
-    font-size: large;
-    border-radius: 30px;
-    color:rgb(243, 243, 242);
-    background-color:rgb(193, 79, 41);
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-
-.DownR:hover{
-    background-color:aqua;
-}
-
-/*Skills Section*/
-.skill{
-    margin: 10%;  
-    padding: 20px;
-    text-align: center;
-    font-size: 40px;
+.sub_btn{ 
+    height: 40px;
+    width: 90px;
     font-size: larger;
+    border-radius: 20px;
+    color:rgb(242, 242, 243);
+    background-color:rgb(193, 79, 41);
+} 
+.input{
+    width: 300px;  
+    height: 20px; 
+    font-size: 16px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
 }
-.skill b{
-    font-size: 40px;
+/*footer Section */
+.footer {
+    background-color:rgb(193, 79, 41);
+    color: white;
+    text-align: center;
 }
+
 .html p{
     border: 50px solid white;
     border-radius: 50%;
@@ -150,7 +142,7 @@ a{
 .CSS p{
     border: 50px solid white;
     border-radius: 50%;
-    background-color:rgb(220, 113, 26);
+    background-color: rgb(220, 113, 26);
     color: rgb(28, 30, 31);
     text-align: center;
     margin: 10px 0;
@@ -159,73 +151,34 @@ a{
 .JS p{
     border: 50px solid white;
     border-radius: 50%;
-    background-color:rgb(220, 113, 26);
+    background-color: rgb(220, 113, 26);
     color: rgb(28, 30, 31);
     text-align: center;
     margin: 10px 0;
     padding: 10px 20px ;
 }
-/*contact Section*/
-.section_contact{
-    color: aliceblue;
-    background-color: black;
-}
-#contact h1{
-    font-size: 40px;
-    text-align: center;
-}
-#contact{
-    margin: 10%;
-    margin: 10%;
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-}
-#sub_btn{ 
-    height: 40px;
-    width: 90px;
-    font-size: larger;
-    border-radius: 20px;
-    color:rgb(242, 242, 243);
-    background-color:rgb(193, 79, 41);
-}   
-#sub_btn:hover{
-    background-color: aqua;
-    color: black;
-}
-.input{
-    width: 300px;  
-    height: 50px; 
-    font-size: 16px; 
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px;
-}
-footer{
-    background-color:rgb(193, 79, 41);
-    text-align: center;
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-}
 .socials a {
-    color: #fff;
-    margin: 10px;
-    justify-content: space-between;
+    color: white;
+    margin: 0 10px;
     text-decoration: none;
 }
-.last{
-    background-color: black;
+
+.socials a:hover {
+    color: #ddd;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 .scroll-button {
-    position:fixed;
+    position: fixed;
     bottom: 10px;
     right: 10px;
     padding: 10px 20px;
-    border-radius: 100%;
-    background-color: #000;
-    color: aliceblue;
+    background-color: black;
+    color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 20px;
 }

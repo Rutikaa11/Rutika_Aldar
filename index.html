@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Rutika Aldar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
 </head>
 <body>
     <header class="header">
@@ -14,14 +13,14 @@
         <div class="menubar">
             <ul>
                 <li><a href="#section_home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#section_about">About</a></li>
+                <li><a href="#section_skill">Skill</a></li>
+                <li><a href="#section_contact">Contact</a></li>
                 <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
             </ul>
         </div>
     </header>
-    <!--Home-->
+    <main>
     <section id="section_home" class="home">
         <div class="home" id="home">
             <div class="image" id="image">
@@ -33,14 +32,14 @@
             <h2>Fronted Developer</h2>
             <p> with a knack for creating elegant and efficient web solutions. <br> I specialize in front-end development and  have experience with back-end technologies as well. <br>My goal is to build user-friendly websites and applications that provide a seamless user experience.</p>
             <br>
-            <button class="btn">Hire Me</button>
+            <a href="#section_contact"><button class="btn">Hire Me</button></a>
         </div>
         
         </div>
     </section>
 
     <!--About-->
-    <section class="section_about">
+    <section class="section_about" id="section_about">
         <div class="about" id="about">
             <h5>About <span>Me</span></h5> <br><br>
             <h3>PERSONAL INFO</h3> <br><br>    
@@ -49,13 +48,13 @@
             <p>Nationality: <b>Indian</b></p> <br>
             <p>Phone: <b>+91 8779629692</b></p><br>
             <p>Email: <b>rutikaaldar@gmail.com</b></p> <br>
-            <a href="Rutika Aldar (Resume).pdf"><button class="DownR">Downlod Resume</a></button></a>
+            <a href="Rutika Aldar (Resume).pdf"><button class="DownR">Download Resume</button></a>
         </div>
     </section>
     <!--Skills-->
-    <section class="section_skill">
+    <section class="section_skill" id="section_skill">
         <div class="skill" id="skill">
-            <p><b>My <span> Skills</span></b></p> <br>
+            <h1>My<span> Skills</span></h1> <br><br>
             <div class="html">
             <p id="html" class="html">HTML <br>84%</p>
             </div>
@@ -68,7 +67,7 @@
     </section>
     <section class="last">
     <!--Contact-->
-    <section class="section_contact">
+    <section class="section_contact" id="section_contact">
         <div class="contact" id="contact">
             <form action=""> 
             <h1>Contact <span> Me</span></h1> <br><br>
@@ -76,7 +75,7 @@
                 <input type="email" placeholder="Email" class="input" required><br><br>
                 <input type="number" placeholder="Phone Number" class="input" required><br><br>
                 <input type="text" placeholder="Leave your message here...." class="input" required><br><br> <br>
-                <input type="submit" id="sub_btn" class="sub_btn">
+                <input type="submit" class="sub_btn">
             </form>
         </div>
     </section>
@@ -96,5 +95,6 @@
     <a href="#top"><button class="scroll-button">Scroll to Top</button></a>
     </section>
 </section>
+</main>
 </body>
 </html>
